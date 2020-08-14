@@ -6,6 +6,45 @@
     <title>Explore and Travel</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo"><img src="images/logo.svg" alt="" class="header__log-img"></a>
+                <nav class="header__menu-top">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Home</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Destinations</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">About</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Partner</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Login</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Register</a></li>
+                </ul> 
+                </nav>
+            </div>
+        </div>
+        <div class="header__content">
+            <h1 class="header__title">Explore and Travel</h1>
+            <p class="header__finder">
+                <h3 class="header__finder-title">Holiday finder</h3>
+                <div class="header__finder-inner">
+                    <select name="location" id="location" class="header__finder-input" placeholder="location">
+                       <option value="1">Rixus</option> 
+                       <option value="2">Шахтер</option> 
+                       <option value="3">Алем +</option> 
+                    </select>
+                    <select name="activity" id="activity" class="header__finder-input" placeholder="activity">
+                        <option value="rus">Свободно</option> 
+                        <option value="kaz">Занято</option> 
+                     </select>
+                     <select name="grade" id="grade" class="header__finder-input" placeholder="grade">
+                        <option value="good">Хорошо</option> 
+                        <option value="bad">Плохо</option> 
+                     </select>
+                     <input type="date" placeholder="date">
+                </div>
+                <button class="header__finder-btn">Explore</button>
+            </p>
+        </div>
+    </header>
 </body>
 </html>
