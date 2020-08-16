@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Muli Regular'; */
+
+@font-face {
+    font-family: 'Muli Regular';
+    src: url('Muli-Regular.eot');
+    src: url('Muli-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Muli-Regular.woff') format('woff'),
+    url('Muli-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }  
+    
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+a{
+    font-family: inherit;
+    color:inherit;
+    text-decoration:none;
+}
+
+li{
+    list-style: none;
+}
+
